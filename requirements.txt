@@ -1,19 +1,8 @@
-# Final recommended requirements.txt for your CULVERT project
-
-# Core Sphinx with Markdown support
-sphinx>=7.0.0
-myst-parser>=2.0.0
-markdown-it-py>=3.0.0  # Underlying parser for MyST
-
-# Theme
-sphinx-book-theme>=1.0.0
-
-# Extensions (matching your conf.py)
-sphinxcontrib-mermaid>=0.9.2  # Mermaid diagrams
-sphinx-copybutton>=0.5.2      # Copy code buttons
-sphinx-design>=0.5.0          # Cards, grids, badges
-
-# Required for MyST linkify feature
-linkify-it-py>=2.0.0
-
-# Note: intersphinx is built into Sphinx, no extra package needed
+sphinx==7.2.6
+myst-parser==2.0.0
+markdown-it-py==3.0.0
+sphinx-book-theme==1.1.0
+sphinxcontrib-mermaid==0.9.2
+sphinx-copybutton==0.5.2
+sphinx-design==0.5.0
+linkify-it-py==2.0.0
