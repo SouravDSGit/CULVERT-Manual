@@ -15,26 +15,18 @@ This documentation is organized into several chapters that progress from basic c
 New to the project? Start here:
 
 1. {doc}`chapter-01` - Basic concepts and overview
-2. {doc}`chapter-02` - Information about variuos datsets used
-3. {doc}`chapter-03` - Information on the Methodologies used
+2. {doc}`chapter-02` - Datasets
+3. {doc}`chapter-03` - Methods
 
 ## Table of Contents
 
 ```{toctree}
 :maxdepth: 2
-:numbered:
 :caption: Main Documentation
 
-docs/chapter-01
-docs/chapter-02
-docs/chapter-03
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: API Reference
-
-api/index
+chapter-01 : Basic concepts and overview
+chapter-02 : Datasets
+chapter-03 : Methods
 ```
 
 ```{toctree}
@@ -42,6 +34,13 @@ api/index
 :caption: Chapter-01 : Basic concepts and overview
 
 chapter-01
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: API Reference
+
+api/index
 ```
 
 ## Features Highlight
