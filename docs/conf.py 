@@ -51,7 +51,7 @@ html_static_path = ['_static']
 html_css_files = ['custom.css']  # Optional custom CSS
 
 # Favicon
-html_favicon = '_static/favicon.ico'  # Optional
+# html_favicon = '_static/favicon.ico'  # Optional
 
 # -- Intersphinx configuration -----------------------------------------------
 intersphinx_mapping = {
