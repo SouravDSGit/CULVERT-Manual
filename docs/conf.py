@@ -47,10 +47,9 @@ html_theme_options = {
 }
 
 # Static files
-#html_static_path = ['_static']
-#html_css_files = ['custom.css']  # Optional custom CSS
-
-# Favicon
+# Uncomment and create files if needed:
+# html_static_path = ['_static']
+# html_css_files = ['custom.css']  # Optional custom CSS
 # html_favicon = '_static/favicon.ico'  # Optional
 
 # -- Intersphinx configuration -----------------------------------------------
