@@ -15,8 +15,8 @@ This documentation is organized into several chapters that progress from basic c
 New to the project? Start here:
 
 1. {doc}`chapter-01` - Basic concepts and overview
-2. {doc}`chapter-02` - Installation and setup
-3. {doc}`chapter-03` - Your first project
+2. {doc}`chapter-02` - Information about variuos datsets used
+3. {doc}`chapter-03` - Information on the Methodologies used
 
 ## Table of Contents
 
@@ -35,6 +35,13 @@ docs/chapter-03
 :caption: API Reference
 
 api/index
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Chapter-01 : Basic concepts and overview
+
+chapter-01
 ```
 
 ## Features Highlight
