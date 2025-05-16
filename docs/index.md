@@ -25,9 +25,9 @@ New to the project? Start here:
 :numbered:
 :caption: Main Documentation
 
-chapter-01
-chapter-02
-chapter-03
+docs/chapter-01
+docs/chapter-02
+docs/chapter-03
 ```
 
 ```{toctree}
