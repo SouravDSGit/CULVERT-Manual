@@ -1,12 +1,10 @@
 # Chapter 2: Dataset
 
-Welcome to the first chapter of our documentation! This chapter provides a comprehensive overview of the project, its goals, and core concepts.
+Welcome to the second chapter of our documentation! This chapter provides a comprehensive guide for input data formatting for the CULVERT Application.
 
-## An easy guide for input data formatting for the CULVERT Application.
+Before starting the analysis, please make sure that your input dataset is in the accepted format:
 
-### Before starting the analysis, please make sure that your input dataset is in the accepted format:
-
-## Geospatial Dataset
+Geospatial Dataset
 
 1. **Boundary Shapefile**
 
@@ -111,7 +109,7 @@ Welcome to the first chapter of our documentation! This chapter provides a compr
 
    - **Sample Data Download:** [here](https://github.com/SouravDSGit/CULVERT-Web-App/raw/refs/heads/main/instance/core_data/data_format_guide/culvert_guaging_st.zip)
 
-## Hydro-meteorological Time-series Data
+Hydro-meteorological Time-series Data
 
 1. **Instantaneous Streamflow Data**
 
