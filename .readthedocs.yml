@@ -1,0 +1,30 @@
+version: 2
+
+# Build documentation with Sphinx
+sphinx:
+  configuration: docs/conf.py
+  fail_on_warning: true
+
+# Build configuration
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  jobs:
+    pre_create_environment:
+      - echo "Setting up documentation build environment"
+    post_build:
+      - echo "Documentation build completed"
+
+# Python configuration
+python:
+  install:
+    - requirements: requirements.txt
+    # Optional: install your package if it contains code
+    # - method: pip
+    #   path: .
+
+# Optionally set the formats you want to build
+formats:
+  - pdf
+  - epub
