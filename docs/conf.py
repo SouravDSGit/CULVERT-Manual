@@ -38,14 +38,19 @@ html_theme_options = {
     'use_repository_button': True,
     'use_issues_button': True,
     'use_download_button': True,
-    'path_to_docs': 'docs',
     'launch_buttons': {
         'binderhub_url': '',  # Optional: Binder integration
     },
     'show_toc_level': 2,
     'navigation_with_keys': True,
 }
-
+html_context = {
+    "display_github": True,
+    "github_user": "SouravDSGit",
+    "github_repo": "CULVERT-Manual",
+    "github_version": "main",
+    "conf_py_path": "/docs/",  # adjust if your conf.py is in root
+}
 # Static files
 # Uncomment and create files if needed:
 # html_static_path = ['_static']
