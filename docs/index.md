@@ -24,9 +24,9 @@ New to the project? Start here:
 :maxdepth: 2
 :caption: Main Documentation
 
-chapter-01 : Basic concepts and overview
-chapter-02 : Datasets
-chapter-03 : Methods
+chapter-01
+chapter-02
+chapter-03
 ```
 
 ```{toctree}
