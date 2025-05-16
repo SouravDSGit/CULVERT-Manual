@@ -47,8 +47,8 @@ html_theme_options = {
 }
 
 # Static files
-html_static_path = ['_static']
-html_css_files = ['custom.css']  # Optional custom CSS
+#html_static_path = ['_static']
+#html_css_files = ['custom.css']  # Optional custom CSS
 
 # Favicon
 # html_favicon = '_static/favicon.ico'  # Optional
