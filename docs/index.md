@@ -31,13 +31,6 @@ chapter-03
 
 ```{toctree}
 :maxdepth: 2
-:caption: Chapter-01 : Basic concepts and overview
-
-chapter-01
-```
-
-```{toctree}
-:maxdepth: 2
 :caption: API Reference
 
 api/index
