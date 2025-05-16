@@ -38,9 +38,7 @@ html_theme_options = {
     'use_repository_button': True,
     'use_issues_button': True,
     'use_download_button': True,
-    'launch_buttons': {
-        'binderhub_url': '',  # Optional: Binder integration
-    },
+    'launch_buttons': {},  # Optional, can be removed
     'show_toc_level': 2,
     'navigation_with_keys': True,
 }
