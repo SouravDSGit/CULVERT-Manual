@@ -34,7 +34,7 @@ myst_heading_anchors = 3  # Generate anchors for h1-h3
 html_theme = 'sphinx_book_theme'
 
 html_theme_options = {
-    'repository_url': 'https://github.com/SouravDSGit/CULVERT-Manual/tree/main',
+    'repository_url': 'https://github.com/SouravDSGit/CULVERT-Manual',
     'use_repository_button': True,
     'use_issues_button': True,
     'use_download_button': True,
