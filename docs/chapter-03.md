@@ -80,18 +80,18 @@ This module allows users to delineate watershed boundaries and stream networks b
 
 ### 📊 Flow Diagram
 
-```{mermaid}
-flowchart TB
-    A[Start] --> B[Upload Boundary Region (.zip/.shp)]
-    B --> C[Upload DEM Raster (.tif)]
-    C --> D[Add Pour Point Data (Optional)]
-    D --> E[Set Stream Delineation Parameters]
-    E --> F[Set Hydro-Enforcement Parameters (Optional)]
+```mermaid
+graph TD
+    A[Start] --> B[Upload Boundary Region]
+    B --> C[Upload DEM Raster]
+    C --> D[Add Pour Point Data]
+    D --> E[Set Stream Parameters]
+    E --> F[Set Hydro Parameters]
     F --> G[Run Delineation]
-    G --> H[Generate Watershed and Stream Network]
+    G --> H[Generate Watershed]
     H --> I[Verify Results]
-    I --> J{Results Acceptable?}
-    J -->|Yes| K[Proceed to Vulnerability Assessment]
+    I --> J{Results OK?}
+    J -->|Yes| K[Proceed to Assessment]
     J -->|No| L[Adjust Parameters]
     L --> G
 ```
