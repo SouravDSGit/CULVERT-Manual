@@ -80,7 +80,7 @@ This module allows users to delineate watershed boundaries and stream networks b
 
 ### 📊 Flow Diagram
 
-```mermaid
+```{mermaid}
 flowchart TD
     A[Start] --> B[Upload Boundary Region (.zip/.shp)]
     B --> C[Upload DEM Raster (.tif)]
@@ -209,7 +209,7 @@ This module assesses the hydrologic capacity and risk associated with culverts u
 
 ### 📊 Flow Diagram
 
-```mermaid
+```{mermaid}
 flowchart TD
     A[Start] --> B{Select Method}
     B --> C1[Regional Frequency Analysis]
@@ -387,7 +387,7 @@ This module evaluates vulnerability due to terrain, sediment, debris flow, and e
 
 ### 📊 Flow Diagram
 
-```mermaid
+```{mermaid}
 flowchart TD
     A[Start] --> B{Select Vulnerability Model}
 
