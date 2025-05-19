@@ -210,7 +210,7 @@ This module assesses the hydrologic capacity and risk associated with culverts u
 ### 📊 Flow Diagram
 
 ```{mermaid}
-flowchart TB
+graph TD
     A[Start] --> B{Select Method}
     B --> C1[Regional Frequency Analysis]
     C1 --> D1[Upload Stream Gauge Data]
@@ -388,7 +388,7 @@ This module evaluates vulnerability due to terrain, sediment, debris flow, and e
 ### 📊 Flow Diagram
 
 ```{mermaid}
-flowchart TB
+graph TD
     A[Start] --> B{Select Vulnerability Model}
 
     B --> C1[SBEVA]
