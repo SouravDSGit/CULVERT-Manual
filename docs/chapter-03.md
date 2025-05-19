@@ -4,7 +4,7 @@ Welcome to the third chapter of our documentation! This chapter provides a detai
 
 ---
 
-# Culvert Vulnerability Assessment Application
+## Culvert Vulnerability Assessment Application
 
 The **Culvert Vulnerability Assessment App** is a comprehensive geospatial tool designed to evaluate the hydrologic and hydrogeomorphologic vulnerability of culverts and related infrastructure. It integrates watershed delineation, hydrologic analysis, and terrain-based assessment methods to support infrastructure planning, disaster resilience, and environmental safety.
 
