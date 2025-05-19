@@ -4,7 +4,7 @@ Welcome to the second chapter of our documentation! This chapter provides a comp
 
 Before starting the analysis, please make sure that your input dataset is in the accepted format:
 
-# Geospatial Dataset
+## Geospatial Dataset
 
 1. **Boundary Shapefile**
 
@@ -109,7 +109,7 @@ Before starting the analysis, please make sure that your input dataset is in the
 
    - **Sample Data Download:** [here](https://github.com/SouravDSGit/CULVERT-Web-App/raw/refs/heads/main/instance/core_data/data_format_guide/culvert_guaging_st.zip)
 
-# Hydro-meteorological Time-series Data
+## Hydro-meteorological Time-series Data
 
 1. **Instantaneous Streamflow Data**
 
