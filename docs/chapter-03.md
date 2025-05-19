@@ -80,7 +80,7 @@ This module allows users to delineate watershed boundaries and stream networks b
 
 ### 📊 Flow Diagram
 
-```mermaid
+```{mermaid}
 graph TD
     A[Start] --> B[Upload Boundary Region]
     B --> C[Upload DEM Raster]
